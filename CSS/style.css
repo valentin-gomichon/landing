@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/profile-picture.css");
+
+@import url("components/button-purple.css");
+
+body {
+
+	font-family: 'Lato', sans serif;
+	font-size: 22px ;
+	color: rgb(104,7,249, 0.1);
+	text-align:center;
+	background-color:rgb(104,7,249, 0.1);
+	
+}
+
+h1, h2, h3 {
+	font-family: 'Futura', sans serif;
+	font-weight: bold;
+	color: rgb(152,82,249);
+
+}
+
+.card { 
+
+background-color:rgb(194,153,252, 0.5);
+padding:40px;
+box-shadow:10px 10px 10px;
+border-radius:2%;
+
+ }
+
+ .cards {
+
+ 	display:flex-end;
+	flex:wrap;
+ }
